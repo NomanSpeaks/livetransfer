@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1">
+        <title>Trusty News</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+              rel="stylesheet"
+              integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+              crossorigin="anonymous">
+        <link rel="stylesheet"
+              href="style.css">
+        <link rel="shortcut icon"
+              href="images/trusty news fav.jpg"
+              type="image/x-icon">
+        <script src="https://kit.fontawesome.com/d139140d96.js"
+                crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-expand-md fw-bold">
+                <div class="container-fluid">
+                    <a class="navbar-brand"
+                       href="index.html"><span class="px-2 py-2 bg-info rounded text-light">Trusty</span><span
+                              class="text-info ms-1">News</span></a>
+                    <button class="navbar-toggler"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarTogglerDemo02"
+                            aria-controls="navbarTogglerDemo02"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse"
+                         id="navbarTogglerDemo02">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item me-2">
+                                <a class="nav-link active"
+                                   aria-current="page"
+                                   href="#">News</a>
+                            </li>
+                            <li class="nav-item ms-2">
+                                <a class="nav-link"
+                                   href="blog.html">Blog</a>
+                            </li>
+                            <img src="images/Avatar.png"
+                                 alt=""
+                                 class="ms-5">
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+        </header>
+
+   <!-- accordion or faq section star here -->
+  <hr class="mt-5" id="faq">
+  <section class="container my-5">
+    <div class="text-center">
+        <h2>Freequently Asked Questions</h2>
+        <p>There are some common quistion people generally ask and want to know. Here you can check these...</p>
+    </div>
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    What is the  difference between let var and const in js?
+                </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">The variable which declared as let can be changed or are assigned new bearable anytime, on the other hand, the constant variable is fixed it cannot reassigned or change but var can change but sometimes create problems global declaration <br>1. The scope of a let variable is block scope.
+                  2. The scope of a var variable is functional scope.
+                  3. The scope of a const variable is block scope
+                4.let can be updated but cannot be re-declared into the scope.
+              5. var can be updated and re-declared into the scope.
+            6. const cannot be updated or re-declared into the scope.</div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    What is the main difference between function and regular function?
+                </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">1. Arrow functions do not have an arguments binding. However, they have access to the arguments object of the closest non-arrow parent function but refular function have.
+                  2. value of this inside an arrow function remains the same.
+                3. Regular functions created using function declarations or expressions are constructible and callable.
+                4. Since regular functions are constructible, they can be called using the new keyword.</div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    what are the main different between map foreach filter and find?
+                </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">The main difference between forEach and filter is that forEach just loop over the array and executes the callback but filter executes the callback and check its return value <br>
+                  The filter method returns multiple numbers or results but find method only return the fast match results and finished activity</div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                    why we use template string in js?
+                </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">There are many good reasons to use string template on Javascript string tablet offers passing variables dynamically and reduce repeated and unused code.we can use multiple string at a time without quotation and add multiple variables without Plus.</div>
+            </div>
+        </div>
+    </div>
+    <!-- accordion end here  -->
+</section>     
+
+
+            <!-- Footer start -->
+            <footer
+                    class="bg-light container">
+                <div class=" my-5 py-3 text-center">
+                    <h1 class="mb-2"><span class="px-2 py-1 bg-info rounded text-light">Trusty</span><span
+                        class="text-info ms-1">News</span></h1>
+                    <small>Noman Tower, Level 5, Gulshan-2, <br>
+                        Dhaka, Bangladesh <br>
+                        Copyright © Trusty News || Noman Hasan 2022 All rights reserved.</small><br>
+                    <a href="https://web.facebook.com/AlwaysNoman/"><i class=" pe-3 fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/FcNoman"><i class=" pe-3 fa-brands fa-square-twitter"></i></a>
+                    <a href="https://github.com/nomanhasanCSE"><i class=" pe-3 fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/noman_on_live/"><i class=" pe-3 fa-brands fa-instagram"></i></a>
+                </div>
+
+            </footer>
+            <!-- Footer end -->
+
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+
+</html>
