@@ -1,0 +1,33 @@
+html {
+    scroll-behavior: smooth;
+  }
+.author {
+    height: 35px;
+    width: 35px;
+    font-size: 9px;
+}
+
+.aut {
+    font-size: 12px;
+}
+.fa-eye {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.fa-arrow-right {
+    font-size: 26px;
+}
+a{
+    text-decoration: none;
+    color: #0066ff;
+    font-weight: 600;
+    font-size: 18px;
+}
+.card-text {
+    white-space: nowrap;
+    width: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
