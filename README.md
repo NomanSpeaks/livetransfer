@@ -1,6 +1,5 @@
 # The-Trusty-News
 
-Certainly, here are the details about a "Trusty News" project:
 
 **Project Name: Trusty News Project**
 
@@ -12,7 +11,7 @@ content from reputable sources.
 **Key Features:**
 
  **Curation from Trusted Sources:** The platform aggregates news articles from a carefully curated list of reputable and well-established news
-   sources known for their journalistic integrity.
+ sources known for their journalistic integrity.
 
 **Fact-Checking Integration:** The project integrates with fact-checking organizations' APIs to verify the accuracy of news stories and provide 
 users with information about the credibility of the sources.
